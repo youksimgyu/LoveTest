@@ -32,6 +32,8 @@ class MainFragment : Fragment() {
 
         navController = Navigation.findNavController(view)
         btn_next.setOnClickListener { navController.navigate(R.id.action_mainFragment_to_questionFragment) }
-
+    
+        
+        // github 테스트
     }
 }
